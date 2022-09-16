@@ -1,33 +1,30 @@
-body{
+body {
 	font-family: 'Montserrat', sans-serif;
-
 }
 
-
-
-header{
+header {
 	background: #BBBBBB;
 	padding: 20px 0;
 }
 
-.caixa{ 
+.caixa {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
- }
+}
 
-nav{
+nav {
 	position: absolute;
-	top: 100px;
+	top: 110px;
 	right: 0;
 }
 
-nav li{
+nav li {
 	display: inline;
 	margin: 0 0 0 15px;
 }
 
-nav a{
+nav a {
 	text-transform: uppercase;
 	color: #000000;
 	font-weight: bold;
@@ -35,8 +32,8 @@ nav a{
 	text-decoration: none;
 }
 
-nav a:hover{
-	color: purple;
+nav a:hover {
+	color: #C78C19;
 	text-decoration: underline;
 }
 
@@ -46,7 +43,7 @@ nav a:hover{
 	padding: 50px 0;
 }
 
-.produtos li{
+.produtos li {
 	display: inline-block;
 	text-align: center;
 	width: 30%;
@@ -54,183 +51,153 @@ nav a:hover{
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border:  2px solid #000000;
-	border-radius: 20px;
-	
+	border: 2px solid #000000;
+	border-radius: 10px;
 }
 
-.produtos li:hover{
-	border-color: purple;
-	
+.produtos li:hover {
+	border-color: #C78C19;
 }
 
-.produtos li:hover h2{
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos li:hover h2 {
 	font-size: 34px;
 }
 
-.produtos li:active{
-	border-color: green;
-}
-
-.produtos h2{
+.produtos h2 {
 	font-size: 30px;
-	font-weight: bold;	
+	font-weight: bold;
 }
 
-.descricao{
+.produto-descricao {
 	font-size: 18px;
 }
 
-.preco{
+.produto-preco {
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 10px;
 }
 
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
 
-.copy{
+.copyright {
 	color: #FFFFFF;
 	font-size: 13px;
-	margin: 20px 0 0 ;
+	margin: 20px 0 0;
 }
-main{
+
+main {
 	width: 940px;
 	margin: 0 auto;
 }
-form{
-	margin: 40px 0;
 
+form {
+	margin: 40px 0;
 }
-form label, form legend{
-	display: block;
+
+form label, form legend {
+	display:block;
 	font-size: 20px;
 	margin: 0 0 10px;
 }
 
-
-.inputpadrao {
+.input-padrao {
 	display: block;
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
 }
-.check{
+
+.checkbox {
 	margin: 20px 0;
 }
-.enviar{
-	width: 40%;
+
+.enviar {
+	width:40%;
 	padding: 15px 0;
 	background: orange;
 	color: white;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 18px;
 	border: none;
 	border-radius: 5px;
 	transition: 1s all;
 	cursor: pointer;
 }
-.enviar:hover{
-	background: orangered;
+
+.enviar:hover {
+	background: darkorange;
 	transform: scale(1.2);
-
 }
 
-table{
-	margin: 20px 40px;
+table {
+	margin: 20px 0 40px;
 }
-thead{
+
+thead {
 	background: #555555;
 	color: white;
 	font-weight: bold;
 }
-td, th{
+
+td, th {
 	border: 1px solid #000000;
-	padding: 8px 15px ;
+	padding: 8px 15px;
 }
 
-/*css da da pagina index */
 
-.banner{
-	width: 100%;
+/* css da página inicial */
+.banner {
+	width:100%;
 }
 
-.tituloprincipal{
+.titulo-principal {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
+	clear: left;
 }
 
-.principal {
-    padding: 3em 0;
-    background: #FEFEFE;
-    width: 940px;
-    margin: 0 auto;
-}
-
-.principal p{
+.principal p {
 	margin: 0 0 1em;
 }
 
-.principal strong{
+.principal strong {
 	font-weight: bold;
 }
 
-.principal em{
+.principal em {
 	font-style: italic;
 }
 
-.beneficios1 { 
-    padding: 3em 0;
-    background: #888888;
-    width: 60%;
-}
-
-.conteudobeneficios{
-	width: 640px;
-	margin: 0 auto;
-}
-
-.listabeneficios{
-	width: 40%;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.imagembeneficios{
-	width: 60%;
-
-}
-
-.itens{
-	line-height: 1.5;
-}
-
-.itens:nth-child(2n){
-	font-weight: bold;
-}
-
-.utensilios{
-	width: 150px;
+.utensilios {
+	width: 120px;
 	float: left;
-	margin:  0 20px 0 20px ;
+	margin: 0 20px 20px 0;
 }
 
-.mapa{
+.imagembeneficios {
+	width: 60%;
+}
+
+.mapa {
 	padding: 3em 0;
-
 }
+
 .mapa p {
 	margin: 0 0 2em;
 	text-align: center;
 }
 
-.video{
+.video {
 	width: 560px;
-	margin: 2em auto;
-
-}
-footer{
-	text-align: center;
-	background: url("bg.jpg");
-	padding: 40px 0;
+	margin: 1em auto;
 }
